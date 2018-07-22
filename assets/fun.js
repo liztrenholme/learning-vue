@@ -2,7 +2,8 @@ new Vue({
     el: "#app",
     data: {
         title: "Hola el Mundo!",
-        link: "http://google.com"
+        link: "http://google.com",
+        counter: 0
     },
     methods: {
         changeTitle: function(event) {
@@ -10,6 +11,9 @@ new Vue({
         },
         omg: function() {
             return "omg lolz", this.title;
+        },
+        increase: function(){
+            this.counter++;
         }
     }
 });

@@ -16,6 +16,9 @@
             <h1 v-once>{{title}}</h1>
             <p>{{ omg() }}</p>
             <a v-bind:href="link">google</a> <!--can only use {{ }} within text tags. Must use v-bind here for href!-->
+            <br/>
+            <button v-on:click="increase">Increase!</button>
+            <p>{{ counter }}</p>
         </div>
         <div id="exercise">
                 <!-- 1) Fill the <p> below with your Name and Age - using Interpolation -->
@@ -30,7 +33,7 @@
                  </div>
                  <!-- 5) Pre-Populate this input with your name (set the "value" attribute) -->
                  <div>
-                     <input type="text" v-on:input="name">
+                     <input type="text" v-bind:value="name">
                  </div>
              </div>
         <script src="https://unpkg.com/vue/dist/vue.js"></script>
