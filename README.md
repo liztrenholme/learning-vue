@@ -1,1 +1,1 @@
-# learning-vue
+Learning how to use Vue.js!
