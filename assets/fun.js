@@ -51,4 +51,11 @@ new Vue ({
         name: "Lucy",
         age: 2
     }
-})
+});
+
+new Vue ({
+    el: "#twoWayBinding",
+    data: {
+        name: "Novie"
+    }
+});
