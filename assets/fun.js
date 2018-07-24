@@ -31,3 +31,24 @@ new Vue({
         }
     }
 })
+
+new Vue({
+    el: '#exercise2',
+    data: {
+        value: ''
+    },
+    methods: {
+    alertMe: function() {
+      alert('Alert!');
+      }
+    }
+});
+
+new Vue ({
+    el: "#cat",
+    data: {
+        color: "orange",
+        name: "Lucy",
+        age: 2
+    }
+})

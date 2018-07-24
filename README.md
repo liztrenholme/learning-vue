@@ -1,1 +1,1 @@
-Learning how to use Vue.js!
+A repository for experimenting with the things I'm learning how to do with Vue.JS.
