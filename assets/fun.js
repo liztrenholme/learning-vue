@@ -59,3 +59,16 @@ new Vue ({
         name: "Novie"
     }
 });
+
+Vue.component('button-counter', {
+    data: function() {
+        return {
+            count: 0
+        }
+    },
+    template: '<button v-on:click="count++"> {{ count }} clicks. </button>'
+});
+
+new Vue ({
+    el: "#a-new-component"
+})

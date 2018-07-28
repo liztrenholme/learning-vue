@@ -49,6 +49,7 @@
         <!-- 1) Show an alert when the Button gets clicked -->
         <div>
             <button v-on:click="alertMe">Show Alert</button>
+            <button-counter></button-counter>
         </div>
         <!-- 2) Listen to the "keydown" event and store the value in a data property (hint: event.target.value gives you the value) -->
         <div>
@@ -64,6 +65,9 @@
     <div id="twoWayBinding">
         <input type="text" v-model="name">
         <p>{{ name }}</p>
+    </div>
+    <div id="a-new-component">
+        <button-counter></button-counter>
     </div>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="assets/fun.js"></script>
